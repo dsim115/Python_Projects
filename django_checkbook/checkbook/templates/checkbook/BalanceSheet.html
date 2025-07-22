@@ -1,0 +1,44 @@
+{% extends 'checkbook_base.html' %}
+{% block title %}Balance Sheet{% endblock %}
+{% block content %}
+<div id="all-transactions-form">
+    <form>
+        <br>
+        <!-- ✅ Show actual account holder and balance -->
+        <label>Account Holder:</label>
+        <input id="accountholder" type="text" name="accountHolder" value="{{ account.first_name }} {{ account.last_name }}" readonly><br><br>
+
+        <label>Current Balance:</label>
+        <input id="balance" type="text" name="currentBalance" value="${{ balance }}" readonly>
+
+        <!-- ✅ Link to add transaction -->
+        <a href="{% url 'add_transaction' %}" class="btn btn-info">Add Transaction +</a>
+    </form>
+    <br><br>
+</div>
+
+<h2>RECENT TRANSACTIONS</h2>
+
+<table class="table table-responsive" id="transactions-table">
+    <tr id="headerRow">
+        <th>Date</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Amount</th>
+    </tr>
+    {% for transaction in transactions %}
+    <tr>
+        <td class="center">{{ transaction.date }}</td>
+        <td class="center">{{ transaction.transaction_type }}</td>
+        <td class="left">{{ transaction.description }}</td>
+        <td class="right">${{ transaction.amount }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="4" class="text-center">No transactions yet.</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<br><br>
+{% endblock %}

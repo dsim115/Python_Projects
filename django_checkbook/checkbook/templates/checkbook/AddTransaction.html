@@ -1,0 +1,22 @@
+{% extends 'checkbook_base.html' %}
+
+{% block title %}Add New Transaction{% endblock %}
+
+{% block content %}
+    <h3>ADD NEW TRANSACTION</h3>
+    <div class="new-transaction-form">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            {% if form.errors %}
+                <div class="alert alert-danger">
+                    {{ form.errors }}
+                </div>
+            {% endif %}
+
+            <button id="new-transaction-button" type="submit">Add Transaction</button>
+        </form>
+        <br>
+    </div>
+{% endblock %}

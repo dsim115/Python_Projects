@@ -1,0 +1,22 @@
+{% extends 'checkbook_base.html' %}
+
+{% block title %}Create New Account{% endblock %}
+
+{% block content %}
+    <h3>CREATE NEW ACCOUNT</h3>
+    <div id="account-form">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            {% if form.errors %}
+                <div class="alert alert-danger">
+                    {{ form.errors }}
+                </div>
+            {% endif %}
+
+            <button id="new-account-button" type="submit">Create Account</button>
+        </form>
+        <br>
+    </div>
+{% endblock %}
