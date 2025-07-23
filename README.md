@@ -8,9 +8,10 @@ This repository contains all the coding projects and exercises I’ve completed 
 
 - **Course Assignments** – Completed tasks and exercises from the course.
 - **Mini Projects** – Small, focused programs that demonstrate specific concepts like loops, functions, file handling, and object-oriented programming.
-- **[django_checkbook](Django_CheckBook)** – A web-based accounting tool where users can create accounts and manage transactions. This project uses forms, templates, and backend logic to simulate basic accounting features.
-- **[Hello_World](hello_world)** – A simple web app that allows users to manage profiles via a dropdown menu. You can add or delete profiles through a clean interface.
-- **[Challenge1](SQL Plus Python)** – A project that incorporates SQL for data persistence. Demonstrates database integration using SQL queries alongside Python logic.
+- **Django_CheckBook** – A web-based accounting tool where users can create accounts and manage transactions. This project uses forms, templates, and backend logic to simulate basic accounting features.
+- **hello_world** – A simple web app that allows users to manage profiles via a dropdown menu. You can add or delete profiles through a clean interface.
+- **Challenge1** – A project that incorporates SQL for data persistence. Demonstrates database integration using SQL queries alongside Python logic.
+- **Project_Phonebook** - A simple projects that incorporates SQL for data persistenece and relationships with Python. Demonstrates a database integration usuing SQL queries alongside Python logic.
 - **Notes and Resources** – Useful code snippets, reference material, and personal learning notes.
 
 ## Purpose
