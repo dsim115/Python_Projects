@@ -4,7 +4,7 @@ Welcome to my Python Projects repository.
 
 This repository contains a collection of Python projects developed as part of my programming coursework and hands-on practice. The projects demonstrate my understanding of Python fundamentals, database integration, and web application development using Django.
 
----
+
 
 ## Projects
 
@@ -19,7 +19,7 @@ Features:
 
 Technologies: Python, Django, SQLite
 
----
+
 
 ### project_phonebook
 A desktop phonebook application built using Tkinter and SQLite.
@@ -32,7 +32,7 @@ Features:
 
 Technologies: Python, Tkinter, SQLite
 
----
+
 
 ### file_transfer.py
 A Python script demonstrating file handling and basic automation concepts.
@@ -43,7 +43,7 @@ Features:
 
 Technologies: Python
 
----
+
 
 ### Nice or Mean.py
 A small Python program focused on practicing conditional logic and loops.
@@ -55,12 +55,12 @@ Features:
 
 Technologies: Python
 
----
+
 
 ## Purpose
 This repository serves as a growing portfolio to showcase my progression as a Python developer. It highlights my ability to work with databases, build desktop and web applications, and apply core programming concepts in practical projects.
 
----
+
 
 ## Technologies Used
 - Python 3.x
@@ -69,7 +69,7 @@ This repository serves as a growing portfolio to showcase my progression as a Py
 - SQLite
 - Git and GitHub
 
----
+
 
 ## Contact
 If you are reviewing this repository for learning, collaboration, or hiring purposes, feel free to explore the projects or reach out. I am always open to feedback and opportunities to grow as a Python developer.
