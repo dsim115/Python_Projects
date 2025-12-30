@@ -45,7 +45,7 @@ Technologies: Python
 
 
 
-### Nice or Mean.py
+### nice_or_mean.py
 A small Python program focused on practicing conditional logic and loops.
 
 Features:
